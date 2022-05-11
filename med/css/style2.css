@@ -1,0 +1,851 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDGothic:wght@700&family=Fredoka+One&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-image: url(https://i.pinimg.com/originals/96/29/2c/96292c1b74a02d97da084006a2334189.jpg);
+    /*background-image: url("https://www.krioplanet.it/wp-content/uploads/2021/06/HOME_Tavola-disegno-3.jpg");*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vh;
+    height: 100vh;
+}
+
+#docpic{
+    width: 40vh;
+    margin-top: 30vh;
+
+}
+
+#mainpageEdomed{
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3vh;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-left: 2%;
+    margin-top: 0.7%;
+    padding: 0.5%;
+    background-color: rgb(0, 158, 132);
+    border-radius: 20px;
+    
+}
+
+#mainpageEdomed:hover{
+    box-shadow: 10px 10px 15px rgba(255, 255, 255, 0.151);
+}
+
+#maintextMainpage{
+    position: absolute;
+    top: 40vh;
+    font-size: 4.5vh;
+    margin-left: 30vh;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+#stay{
+    color: rgb(0, 158, 132);
+}
+
+#mainButton{
+    position: absolute;
+    top: 51vh;
+    left: 35vh;
+    font-size: 2.5vh;
+    padding: 1vh;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    border-radius: 15px;
+    background-color: rgb(0, 158, 132);
+    border: none;
+
+}
+
+#mainButton:hover{
+    transition: 300ms;
+    font-size: 2.51vh;
+    background-color: rgb(0, 223, 186);
+    left: 35.1vh;
+}
+
+.overlay {
+    display: none;
+    z-index: 2;
+    background: rgba(0,0,0,0.5);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+    margin:0 auto;
+}
+
+
+.formAppuntamento{
+    display: none;
+    position: absolute;
+    z-index: 3;
+    padding: 4vh;
+    top: 13vh;
+    left: 60vh;
+    width: 40vh;
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 10px;    
+}
+
+#edomedForm{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 2.5vh;
+    padding: 1%;
+    border: 1px solid black;
+    text-decoration: none;
+    border-radius: 20px;
+    margin-top: 2vh;
+}
+
+.close{
+    position: absolute;
+    color: black;
+    text-decoration: none;
+    top: 0.5vh;
+    left: 40vh;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    transform: rotate(90deg);
+    padding: 1%;
+    border: 1px solid black;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.close:hover{
+    border: none;
+    color: red;
+    text-decoration: none;
+}
+
+.item{
+    margin-left: 2vh;
+    margin-right: 2vh;
+    margin-top: 4vh;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 1px solid rgb(104, 104, 104);
+    padding: 1.5%;
+
+}
+
+.item:focus{
+    background-color: rgb(218, 255, 255);
+    overflow: auto;
+    outline: none;
+}
+
+#sendForm{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-top: 4vh;
+    padding: 1vh;
+    padding-left: 4vh;
+    padding-right: 4vh;
+    background-color: rgb(218, 255, 255);
+    border: 1px solid rgb(78, 78, 78);
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#sendForm:hover{
+    background-color: rgb(0, 223, 186);
+}
+
+
+.endbar{
+    position: absolute;
+    width: 100%;
+    height: 13.7vh;
+    background-color: rgba(88, 88, 88, 0.753);
+
+}
+
+#endbar{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: rgba(240, 248, 255, 0.651);
+    margin-left: 4vh;
+    margin-top: 1%;
+}
+
+#endbar:hover{
+    text-decoration: underline;
+}
+
+    .doctorpic{
+        position: absolute;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        font-size: medium;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        left: 90vh;
+        top: 15vh;
+        width: 18vh;
+        padding: 2vh;
+        background-color: rgb(0, 158, 132);
+        border-radius: 20px;
+        padding-left: 20vh;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.788);
+        
+    }
+    
+    .doctorpic2{
+        position: absolute;
+        width: 11vh;
+        top: 22.5vh;
+        left: 114vh;
+        border-radius: 30% ;
+    }
+    
+    .userpic{
+        position: absolute;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        font-size: large;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        left: 90vh;
+        top: 30vh;
+        width: 19vh;
+        padding: 2vh;
+        background-color: rgb(0, 158, 132);
+        border-radius: 20px;
+        padding-left: 20vh;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.788);
+        
+    }
+    
+    .userpic2{
+        position: absolute;
+        width: 11.5vh;
+        top: 47.3vh;
+        left: 114vh;
+        border-radius: 30% ;
+    }
+
+
+    #requestSent{
+        position: absolute;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        font-size: 3vh;
+        color: rgb(0, 158, 132);
+        top: 30vh;
+        left: 55vh;
+    }
+
+
+    .endbar2{
+        position: absolute;
+        width: 100%;
+        top: 86.3vh;
+        height: 13.7vh;
+        background-color: rgba(88, 88, 88, 0.753);
+    }
+
+    #maintextSent{
+        position: absolute;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        font-size: 2vh;
+        color: rgb(0, 158, 132);
+        top: 35vh;
+        left: 72vh;
+    }
+
+    .docLogin{
+        position: absolute;
+        top: 37vh;
+        left: 70vh;
+    }
+
+    .docLogin2{
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        font-size: large;
+        padding: 1vh;
+        margin-left: 2vh;
+        border: none;
+        overflow: auto;
+        outline: none;
+        border-radius: 5px;
+    }
+
+    #logindoctor{
+        color: rgb(0, 0, 0);
+        font-size: 2.5vh;
+        margin-bottom: 1vh;
+        
+    }
+
+    #greencolor{
+        color: rgb(0, 158, 132);
+        
+    }
+
+    #docpicLogin{
+        width: 40vh;
+        margin-top: 35.6vh;
+        margin-left: 20vh;
+    }
+
+    #submitDoctor{
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        font-size: 1.5vh;
+        background-color: rgba(0, 0, 0, 0);
+        padding: 1vh;
+        margin-top: 3vh;
+        margin-left: 20vh;
+        border: none;
+        overflow: auto;
+        outline: none;
+        border-radius: 5px;
+        cursor: pointer;
+        border: 1px solid black;
+    }
+
+    #submitDoctor:hover{
+        background-color: rgb(0, 223, 186);
+        border: none;
+        transition: 300ms;
+    }
+
+
+.Navbar{
+        position: absolute;
+        width: 100%;
+        height: 9.7vh;
+        background-color: rgba(0, 158, 132, 0.493);
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        font-size: 1.7vh;
+}
+
+#nav{
+    margin-left: 50vh;
+    position: absolute;
+    top: -2vh;
+    width: 140vh;
+}
+
+#navitem{
+        font-family: 'Poppins', sans-serif;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        margin-left: 10vh;
+
+    
+}
+
+
+#docName{
+    position: absolute;
+    top: 4.2vh;
+    margin-left: 100vh;
+    color: rgb(255, 255, 255);
+    font-size: 3vh;
+}
+
+
+#navitem:hover{
+    text-decoration: underline;
+    color: rgb(0, 122, 104);
+}
+
+#active{
+    
+    text-decoration: none;
+}
+
+.grey{
+    color: rgb(168, 168, 168);
+}
+
+
+.MainMenu{
+    position: absolute;
+    top: 23vh;
+    left: 12vh;
+    
+}
+
+#h2Dashboard{
+    font-family: 'Poppins', sans-serif;
+    top: 12vh;
+    font-weight: bold;
+    font-size: 3.5vh;
+    margin-bottom: 5vh;
+}
+
+.ItemMainMenu{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.3vh;
+    cursor: pointer;
+    padding: 1.5vh;
+    background-color: rgb(0, 158, 132);
+    width: 30vh;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-radius: 12px;
+    background-color: rgb(0, 158, 132);
+    border: 2px solid black;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.788);
+}
+
+
+.ItemMainMenu:hover{
+    transition: 300ms;
+    font-size: 2.6vh;
+    background-color: rgb(0, 223, 186);
+    left: 12vh;
+    box-shadow: none;
+}
+
+#docpic2Dashboard{
+    width: 6vh;
+    margin-top: 55vh;
+    margin-left: 120vh;
+    
+
+}
+
+#logout{
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    top: 15vh;
+    left: 155vh;
+    font-weight: bold;
+    font-size: 2.9vh;
+    text-decoration: none;
+    color: white;
+    padding: 1vh;
+    background-color: rgb(0, 158, 132);
+    border-radius: 15px;
+    border: 2px solid black;
+    cursor: pointer;
+
+}
+
+
+#logout:hover{
+    background-color: rgb(0, 223, 186);
+}
+
+
+#videoMask{
+    position: absolute;
+    top: 33vh;
+    left: 105vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.788);
+}
+
+#varstyle{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+#varstyle:hover{
+    text-decoration: underline;
+    color:rgb(0, 94, 78);
+}
+
+
+
+table{
+    position: absolute;
+    border-collapse: collapse;
+    top: 40vh;
+    left: 5vh;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: rgb(83, 83, 83);
+    border: 1px solid grey;
+}
+
+th{
+    font-size: 2vh;
+    
+
+}
+
+tr{
+    font-weight: normal;
+    border: 1px solid black;
+}
+
+td{
+
+    padding: 3vh;
+    border: 1px solid grey;
+}
+
+.center{
+    position: absolute;
+    top: 25vh;
+    width: 70%;
+    left: 14%;
+    right: 15%;
+
+
+}
+
+#h2pazienti{
+    position: absolute;
+    top: 15vh;
+    left: 5vh;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: rgb(17, 158, 111);
+}
+
+.top-left{
+    position: absolute;
+    top: 20vh;
+}
+
+
+.richieste{
+    position: absolute;
+    top: 20vh;
+    left: 140vh;
+    font-size: 2.5vh;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: white;
+    padding: 1.5vh;
+    background: -webkit-linear-gradient( rgb(17, 158, 111),rgb(0, 179, 149));
+    border: 2px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#richiesteTamponi{
+    margin-top: 11vh;
+}
+
+#archiviowidth{
+    padding-right: 19vh;
+}
+
+#richiesteRicette{
+    width: 25vh;
+}
+
+#editRequest{
+    position: absolute;
+    width: 20%;
+    left: 40%;
+    right: 40%;
+    top: 17vh;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    padding: 1.5vh;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(17, 158, 111);
+}
+
+#editRequest:hover{
+    transition: 200ms;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 179, 149);
+}
+
+#h2archivio{
+    position: absolute;
+    top: 15vh;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 3vh;
+    width: 20%;
+    left: 40%;
+    right: 40%;
+}
+
+.editRequest{
+    display: none;
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 2vh;
+    top: 20vh;
+    left: 65vh;
+    position: absolute;
+    z-index: 3;
+    padding: 4vh;
+    width: 55vh;
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+.updateRequest{
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 2vh;
+    top: 20vh;
+    left: 65vh;
+    position: absolute;
+    z-index: 3;
+    padding: 4vh;
+    width: 55vh;
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+#decline{
+    bottom: 40vh;
+    left: 2vh;
+    position: absolute;
+    padding: 1vh;
+    background-color: rgba(255, 0, 0, 0.363);
+    padding-left: 5vh;
+    padding-right: 7vh;
+    border-radius: 15px;
+    border: 1px solid grey;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 1.4vh;
+    cursor: pointer;
+    width: 3vh;
+}
+
+#decline2{
+    position: absolute;
+    bottom: 37vh;
+    left: 2vh;
+    padding: 1vh;
+    background-color: rgba(255, 0, 0, 0.363);
+    padding-left: 5vh;
+    padding-right: 7vh;
+    border-radius: 15px;
+    border: 1px solid grey;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 1.4vh;
+    cursor: pointer;
+    width: 3vh;
+}
+
+#decline:hover{
+    background-color: rgb(255, 49, 49);
+    transition: 200ms;
+}
+
+
+.addpatient{
+    z-index: 3;
+    display: none;
+    position: absolute;
+    width: 70vh;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.addpatient{
+    position: absolute;
+    top: 16vh;
+    left: 55vh;
+    padding: 3vh;
+    border-radius: 5px;
+}
+
+
+.addpat-item{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 2.1vh;
+    padding: 1vh;
+    margin-top: 2vh ;
+    margin-left: 2.5vh;
+}
+
+#h2addpatient{
+    text-align: center;
+    padding: 1vh;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 2.5vh;
+}
+
+#closeAddPat{
+    margin-top: 1vh;
+    margin-left: 10vh;
+}
+
+
+#submitAddPat{
+    font-weight: normal;
+    margin-left: 7vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    cursor: pointer;
+    border: 1px solid black;
+    background-color: rgba(173, 255, 241, 0.685);
+    border-radius: 15px;
+}
+
+#submitAddPat:hover{
+    background-color: rgb(124, 218, 255);
+}
+
+
+#errortext{
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    color: red;
+    font-weight: bold;
+    font-size: 2vh;
+    top: 18vh;
+    left: 77.5vh;
+}
+
+.toArchive{
+    position: absolute;
+    width: 70vh;
+    background-color: rgb(255, 255, 255);
+    top: 14vh;
+    left: 65vh;
+    padding: 3vh;
+    border-radius: 5px;
+    padding-bottom: 10vh;
+}
+
+.archivepat-item{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 2.1vh;
+    padding: 1vh;
+    margin-top: 2vh ;
+    margin-left: 2.5vh;
+}
+
+
+.dashboardPatientTable{
+    z-index: 3;
+    display: none;
+    position: absolute !important;
+    top: 17vh;
+    left: 65vh;
+    width: 60vh;
+    background-color: white;
+    color: black;
+    padding-bottom: 3vh;
+    padding-left: 4vh;
+    padding-right: 4vh;
+}
+
+#ArchiveIdCheck{
+    border: none;
+    text-align: center;
+    padding: 1vh;
+    background-color: rgba(219, 240, 236, 0.685);
+    border-radius: 5px;
+    
+}
+
+#sendToArchive{
+    padding: 1vh;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid grey;
+    background-color: rgba(209, 255, 247, 0.685);
+}
+
+#sendToArchive:hover{
+    transition: 200ms;
+    background-color: rgb(124, 218, 255);
+}
+
+#CloseToArchive{
+    font-size: small;
+    padding: 0.7vh;
+    border: 1px solid grey;
+    font-weight: normal;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgba(255, 0, 0, 0.363);
+}
+
+#CloseToArchive:hover{
+    background-color: rgb(255, 49, 49);
+    transition: 200ms;
+}
+
+
+.patientform{
+    display: none;
+    z-index: 3;
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    top: 25vh;
+    left: 60vh;
+    padding: 2.5vh;
+    border-radius: 10px;
+    background-color: white;
+
+}
+
+#MainPatForm{
+    font-size: 3.5vh;
+    text-align: center;
+}
+
+
+#LoginButtonPat{
+
+    padding: 1.3vh;
+    background-color: rgba(209, 255, 247, 0.685);
+    cursor: pointer;
+    border: 1px solid grey;
+    border-radius: 13px;
+
+}
+#LoginButtonPat:hover{
+    transition: 200ms;
+    background-color: rgb(124, 218, 255);
+}
+
+.formItem{
+    font-size: 2.5vh;
+    padding: 0.7vh;
+}
+
+#pwdlost{
+    cursor: pointer;
+}
+
+#pwdlost:hover{
+    color: rgb(56, 207, 212);
+}
+
+#closePatForm{
+    margin-left: 5vh;
+}

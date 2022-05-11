@@ -1,0 +1,423 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDGothic:wght@700&family=Fredoka+One&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-image: url("https://img.freepik.com/free-vector/clean-medical-background_53876-116875.jpg?w=2000");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vh;
+    height: 100vh;
+}
+
+
+.Navbar{
+    position: absolute;
+    width: 100%;
+    height: 7vh;
+    background-color: rgba(182, 255, 245, 0.705);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 1.7vh;
+}
+
+#nav{
+    margin-left: 50vh;
+    margin-top: -8vh;
+}
+
+#navitem{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-left: 10vh;
+
+
+}
+
+
+#navitem:hover{
+text-decoration: underline;
+color: rgb(0, 223, 186);
+}
+
+
+#mainpageEdomed{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5vh;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-left: 2%;
+    margin-top: 2vh!important;
+    padding: 0.3%;
+    background-color: rgb(0, 158, 132);
+    border-radius: 20px;
+    
+}
+
+#h2PatDashboard{
+    position: absolute;
+    top: 20vh;
+    left: 10vh;
+    font-family: 'Poppins', sans-serif;
+    font-size: 5vh;
+
+}
+
+#TuaCartella{
+    position: absolute;
+    top: 35vh;
+    left: 10vh;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 3.5vh;
+    padding: 1vh;
+    border-radius: 12px;
+    background-color: rgb(0, 158, 132);
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+#TuaCartella:hover{
+    transition: 300ms;
+    font-size: 3.9vh;
+    background-color: rgb(0, 223, 186);
+    left: 12vh;
+}
+
+
+#richiediCert{
+    position: absolute;
+    top: 50vh;
+    left: 10vh;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 3.5vh;
+    padding: 1vh;
+    border-radius: 12px;
+    background-color: rgb(0, 158, 132);
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+#richiediCert:hover{
+    transition: 300ms;
+    font-size: 3.9vh;
+    background-color: rgb(0, 223, 186);
+    left: 12vh;
+}
+
+
+#docpic{
+    position: absolute;
+    width: 60vh;
+    top: 19vh;
+    left: 110vh;
+}
+
+
+#contact1{
+    position: absolute;
+    top: 25vh;
+    left: 98vh;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 3vh;
+}
+
+#contact2{
+    position: absolute;
+    top: 31vh;
+    left: 103vh;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 3vh;
+    padding: 1.5vh;
+    background-color: rgb(100, 245, 255);
+    border: 1px solid black;
+    border-radius: 12px;
+    background-color: rgb(0, 202, 169);
+    cursor: pointer;
+}
+
+.endbar{
+    position: absolute;
+    top: 89.3vh;
+    width: 100%;
+    height: 10.7vh;
+    background-color: rgba(87, 255, 233, 0.753);
+
+}
+
+#endbar{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: rgb(83, 83, 83);
+    margin-left: 4vh;
+    margin-top: 1%;
+}
+
+#endbar:hover{
+    text-decoration: underline;
+}
+
+
+table{
+    position: absolute;
+    border-collapse: collapse;
+    top: 40vh;
+    left: 5vh;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: rgb(83, 83, 83);
+    border: 1px solid grey;
+}
+
+th{
+    font-size: 2vh;
+    
+
+}
+
+tr{
+    font-weight: normal;
+    border: 1px solid black;
+}
+
+td{
+
+    padding: 3vh;
+    border: 1px solid grey;
+}
+
+
+#h3patcartella{
+    position: absolute;
+    top: 33vh;
+    left: 5vh;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: rgb(17, 158, 111);
+}
+
+
+#ricettapic{
+    z-index: 3;
+    cursor: pointer;
+    width: 17vh;
+    position: absolute;
+    top: 18.9vh;
+    left: 145vh;
+    z-index: 3;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.788);
+}
+
+#ricettapic:hover{
+    transition: 200ms;
+    left: 144.8vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 212, 148, 0.397), 0 6px 20px rgba(87, 255, 157, 0.788);
+    width: 17.5vh;
+}
+
+
+#ricettatext{
+    z-index: 3;
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    font-size: 2.4vh;
+    top: 21vh;
+    left: 113vh;
+    z-index: 4;
+    width: 30vh;
+}
+
+#tamponepic{
+    z-index: 3;
+    cursor: pointer;
+    width: 17vh;
+    position: absolute;
+    top: 42.9vh;
+    left: 145vh;
+    z-index: 3;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.788);
+}
+
+#tamponepic:hover{
+    transition: 200ms;
+    left: 144.8vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 212, 148, 0.397), 0 6px 20px rgba(87, 255, 157, 0.788);
+    width: 17.5vh;
+}
+
+#tamponetext{
+    z-index: 3;
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    font-size: 2.4vh;
+    top: 45vh;
+    left: 113vh;
+    z-index: 4;
+    width: 30vh;
+}
+
+
+#post-text{
+    background-color: #48daa92c;
+    padding: 2vh;
+    resize: none;
+}
+
+.ricetta{
+    display: none;
+    position: absolute;
+    top: 20vh;
+    left: 65vh;
+    background-color: rgb(255, 255, 255);
+    padding: 3vh;
+    z-index: 4;
+}
+
+.item-ricetta{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    padding: 1vh;
+    border: none;
+    text-decoration: none;
+    border: 1px solid grey;
+    margin-top: 2vh;
+    text-align: center;
+}
+
+
+#edoMed{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    padding: 1vh;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(17, 158, 111);
+}
+
+textarea{
+    width: 37.7vh;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    color: #000000;
+    border: none;
+    overflow: auto;
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+#sendRicetta{
+    cursor: pointer;
+    margin-top: 1vh;;
+    padding: 0.7vh;
+    padding-left: 1.3vh;
+    padding-right: 1.3vh;
+    font-weight: normal;
+    font-size: 1.7vh;
+    background-color: rgb(77, 189, 146);
+    border: 1px solid grey;
+    border-radius: 7px;
+
+}
+
+#sendRicetta:hover{
+    transition: 200ms;
+    background-color: rgb(0, 223, 186);
+
+}
+
+.close{
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+.close:hover{
+    border: none;
+    color: red;
+    text-decoration: none;
+}
+
+
+.overlay {
+    display: none;
+    z-index: 2;
+    background: rgba(0,0,0,0.5);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+    margin:0 auto;
+}
+
+
+.tamponeCovid{
+    display: none;
+    position: absolute;
+    top: 20vh;
+    left: 75vh;
+    background-color: rgb(255, 255, 255);
+    padding: 3vh;
+    z-index: 4;
+}
+
+.item-tamponeCovid{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.checkbox-covid{
+    width: 1.5vh;
+    height: 1.5vh;    
+}
+
+.patologieTEXT{
+    display: none;
+}
+
+
+#patologietext{
+    margin-left: 1.5vh;
+    margin-top: 1.5vh;
+    padding: 0.3vh;
+    border: 1px solid grey;
+    font-size: 1.4vh;
+    border-radius: 5px;
+}
+
+.verificatext2{
+    display: none;
+    color: red;
+}
+
+
+#sendCovid{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    padding: 1vh;
+    background-color: rgb(77, 189, 146);
+
+}
+
+#sendCovid:hover{
+    background-color: rgb(0, 223, 186);
+}
